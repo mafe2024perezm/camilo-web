@@ -1,0 +1,133 @@
+/* Fondo principal y texto */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333333; /* Texto en gris oscuro */
+    background-color: #FDF4E3; /* Fondo beige claro */
+}
+
+/* Header */
+header {
+    background-color: #FFCC00; /* Amarillo vibrante */
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid #FF9F1C; /* Naranja para acentuar */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #FF9F1C; /* Cambia el color al pasar el ratón */
+}
+
+/* Sección principal */
+main {
+    padding: 40px 20px;
+    background-color: #FFFFFF; /* Fondo blanco limpio */
+}
+
+/* Títulos de secciones */
+section h2 {
+    font-size: 2.5em;
+    color: #FF9F1C; /* Naranja para destacar */
+}
+
+/* Biografía */
+#biografia {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #FFFCF5; /* Fondo ligeramente cálido */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#biografia p {
+    font-size: 1.2em;
+    color: #555555; /* Gris suave para el texto */
+}
+
+/* Galería */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Botones */
+button {
+    background-color: #FFCC00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF9F1C;
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Fondo gris oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1em;
+    margin: 0;
+}
+
+footer a {
+    color: #FFCC00; /* Amarillo vibrante */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #FF9F1C;
+}
